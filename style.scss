@@ -77,6 +77,9 @@
         display: flex;
         align-items: center;
         justify-content: space-between;
+        @media (max-width: 1700px) {
+        flex-direction: column;
+        }
     }
 
     &__list {
@@ -98,4 +101,52 @@
         background-color: #1f1f1f;
         color: white;
     }
+
+    
+}
+
+.navigate__slide {
+    background-image: url(пиктурес/jackman.jpg);
+    background-size: cover;
+    padding: 150px 0;
+    background-repeat: no-repeat;
+   
+}
+
+.navigate__p {
+    font-family: second-family;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    text-transform: uppercase;
+    text-align: center;
+    color: white;
+    width: 721px;
+    margin: 0 auto;
+}
+
+.porten__logo_1 {
+    display: block;
+    margin: 0 auto 0 auto;
+    height: 320px;
+    width: 320px;
+    margin-bottom: 80px;
+}
+
+
+
+
+
+.second__slide {
+    background-color: #000;
+}
+
+.second__border {
+    border: 1px solid white;
+    width: 120px;
+    height: 0;
+}
+
+.second__watches {
+    display: flex;
 }
